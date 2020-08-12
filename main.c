@@ -71,6 +71,7 @@ int main(void)
         return errno;
     }
   }
+  free(Input);
   fclose(pFile);
   return 0;
 }
